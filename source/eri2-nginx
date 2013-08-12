@@ -1,0 +1,11 @@
+server {
+	server_name  eri2.com;
+	access_log  /var/log/nginx/eri2.com.access.log;
+	error_log  /var/log/nginx/eri2.com.error.log;
+
+	location / {
+		gzip on;
+		root /srv/eri2.com;
+		index index.html;
+	}
+}
