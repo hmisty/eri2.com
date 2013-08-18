@@ -10,11 +10,11 @@ Think more, write less, never repeat.
 
 ## Research Topic
 
-In the Big Data category:
+In the Big Data category, topics in fields of Data Analytics, Data Warehouse, Machine Learning, etc will be covered.
 
-* Data Analytics
-* Data Warehouse
-* Machine Learning
+* {[svm4p][svm4p]} [Support Vector Machine for Programmers][svm4p] (article series)
+
+[svm4p]: {{root_url}}/blog/categories/svm4p
 
 ## Business Watch
 * Evan Liu. [Apps Are New Productivity]({{root_url}}/blog/2013/08/08/apps-are-new-productivity) (in Chinese). _CEIBS Business Review_. 2013-1.
@@ -23,14 +23,16 @@ In the Big Data category:
 * Chenhui Tan, Evan Liu. [Open API: Emergence, Origination and Situation]({{root_url}}/blog/2008/07/10/open-api-emergence/) (in Chinese). _Programmer_. 2008-7.
 
 ## Lecture
-* EL13.2 stream data analytics (2013): Course in Beihang university.
-  * EL13.2 lecture notes. coming...
-* EL11.2 android development (2011-2012): Here I open sourced (part of) my android development courses taught in Beihang University.
+* {[sda][sda]} [stream data analytics][sda] (2013): Course in Beihang university.
+  * lecture notes. coming...
+* {andev} android development (2011-2012): Here I open sourced (part of) my android development courses taught in Beihang University.
   * Project 4: [TicTacToe](https://github.com/hmisty/adc_tictactoe)
   * Project 5: [Speaking English](https://github.com/hmisty/adc_speakingenglish)
   * Project 6: [Tomato Clock](https://github.com/hmisty/adc_tomatoclock)
   * Project 7: [Happy New Year](https://github.com/hmisty/adc_happynewyear)
   * Project 8: [My Journey](https://github.com/hmisty/adc_myjourney)
+
+[sda]: {{root_url}}/blog/categories/sda
 
 ## Software
 * [gitwiki](https://github.com/hmisty/gitwiki): A lightweight and intuitive multi-user wiki with git backend.
@@ -38,4 +40,9 @@ In the Big Data category:
 * [99haizi](https://github.com/hmisty/99haizi): A sina appengine application just for the event "photographing to save beggar children" in 2011. [The website at SAE](http://99haizi.sinaapp.com/) has been not working any more due to lack of resource.
 * [weaver](https://addons.mozilla.org/zh-cn/firefox/addon/weaver/): A non-intrusive firefox plugin for monitoring sina weibo contents. (not work with new weibo auth anymore. fix needed)
 * [farsail](https://code.google.com/p/farsail/): A data warehouse solution with MPP architecture.
+
+## Memo
+
+* Courses and article series are organized by a specific category tag like {svm4p}.
+* [Markdown cheatsheet]({{root_url}}/page/markdown-cheatsheet.html)
 
