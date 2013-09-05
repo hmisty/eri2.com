@@ -16,6 +16,14 @@ In the Big Data category, topics in fields of Data Analytics, Data Warehouse, Ma
 
 [svm4p]: {{root_url}}/blog/categories/svm4p
 
+In the Clojure Programming category, topics on quicklojure distribution, clojure web development, etc will be covered.
+
+* [Quicklojure: Yet Another Clojure Distribution]({{root_url}}/blog/2013/08/19/quicklojure)
+* {[cljweb][cljweb]} [Clojure Web Programming][cljweb] (article series)
+
+[cljweb]: {{root_url}}/blog/categories/cljweb
+
+
 ## Business Watch
 * Evan Liu. [Apps Are New Productivity]({{root_url}}/blog/2013/08/08/apps-are-new-productivity) (in Chinese). _CEIBS Business Review_. 2013-1.
 * Evan Liu. [Seven Golden Rules Of Innovating Mobile Apps]({{root_url}}/blog/2012/05/11/seven-golden-rules-of-innovating-mobile-apps) (in Chinese). _CEIBS Business Review_. 2011-3.
