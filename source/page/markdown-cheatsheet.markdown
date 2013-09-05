@@ -62,7 +62,7 @@ Text with
 two trailing spaces  
 (on the right)  
 can be used  
-for things like poems  
+for SOFT LINE BREAK i.e. tag br
 
 ### Horizontal rules
 
