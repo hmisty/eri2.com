@@ -13,6 +13,7 @@ Just took weiming bbs's clone of the politics compass test and here's my result 
 经济观念坐标     0.3  Neoliberalism  
 
 结果说明：
+<!-- more -->
 
 政治观念坐标，负值为左，即威权主义 (Authoritarianism)，正值为右，即自由主义 (Libertarianism)。
 
