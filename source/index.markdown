@@ -30,16 +30,16 @@ In the Clojure Programming category, topics on quicklojure distribution, clojure
 * Chenhui Tan, Evan Liu. [Open API: Emergence, Origination and Situation]({{root_url}}/blog/2008/07/10/open-api-emergence/) (in Chinese). _Programmer_. 2008-7.
 
 ## Lecture
-* {[sda][sda]} [stream data analytics][sda] (2013): Course in Beihang university.
+* {[sdac][sdac]} [stream data analytics course][sdac] (2013): Course in Beihang university.
   * lecture notes. coming...
-* {andev} android development (2011-2012): Here I open sourced (part of) my android development courses taught in Beihang University.
+* {adc} android development course (2011-2012): Here I open sourced (part of) my android development courses taught in Beihang University.
   * Project 4: [TicTacToe](https://github.com/hmisty/adc_tictactoe)
   * Project 5: [Speaking English](https://github.com/hmisty/adc_speakingenglish)
   * Project 6: [Tomato Clock](https://github.com/hmisty/adc_tomatoclock)
   * Project 7: [Happy New Year](https://github.com/hmisty/adc_happynewyear)
   * Project 8: [My Journey](https://github.com/hmisty/adc_myjourney)
 
-[sda]: {{root_url}}/blog/categories/sda
+[sdac]: {{root_url}}/blog/categories/sdac
 
 ## Software
 * [quicklojure: yet another clojure distribution]({{root_url}}/blog/2013/08/19/quicklojure)
