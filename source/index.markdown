@@ -18,7 +18,6 @@ In the Big Data category, topics in fields of Data Analytics, Data Warehouse, Ma
 
 In the Clojure Programming category, topics on quicklojure distribution, clojure web development, etc will be covered.
 
-* [Quicklojure: Yet Another Clojure Distribution]({{root_url}}/blog/2013/08/19/quicklojure)
 * {[cljweb][cljweb]} [Clojure Web Programming][cljweb] (article series)
 
 [cljweb]: {{root_url}}/blog/categories/cljweb
@@ -43,6 +42,7 @@ In the Clojure Programming category, topics on quicklojure distribution, clojure
 [sda]: {{root_url}}/blog/categories/sda
 
 ## Software
+* [quicklojure: yet another clojure distribution]({{root_url}}/blog/2013/08/19/quicklojure)
 * [gitwiki](https://github.com/hmisty/gitwiki): A lightweight and intuitive multi-user wiki with git backend.
 * [udp-tunnel](https://github.com/hmisty/udp-tunnel): An obfuscated udp tunnelling implementation. 
 * [99haizi](https://github.com/hmisty/99haizi): A sina appengine application just for the event "photographing to save beggar children" in 2011. [The website at SAE](http://99haizi.sinaapp.com/) has been not working any more due to lack of resource.
