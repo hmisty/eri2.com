@@ -31,7 +31,7 @@ In the Clojure Programming category, topics on quicklojure distribution, clojure
 
 ## Lecture
 * {[sdac][sdac]} [stream data analytics course][sdac] (2013): Course in Beihang university.
-  * [Syllabus]({{root_url}}/blog/2013/09/15/stream-data-analytics-course-syllabus)
+  * [Syllabus]({{root_url}}/blog/2013/09/15/stream-data-analytics-course-syllabus/)
 * {adc} android development course (2011-2012): Here I open sourced (part of) my android development courses taught in Beihang University.
   * Project 4: [TicTacToe](https://github.com/hmisty/adc_tictactoe)
   * Project 5: [Speaking English](https://github.com/hmisty/adc_speakingenglish)
