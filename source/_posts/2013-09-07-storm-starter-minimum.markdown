@@ -64,7 +64,7 @@ create ~/.storm/storm.yaml
 nimbus.host: "127.0.0.1"
 ```
 
-run it with a name in the shell will deploy it to the storm cluster:
+run it with a name in the shell that will deploy it to the storm cluster:
 
 ``` bash
 lein run -m word-count "word-count-clj"
@@ -119,7 +119,7 @@ java -cp $(lein classpath) WordCountTopology
 IT WORKS NOW!
 
 
-run it with a name in the shell will deploy it to the storm cluster:
+run it with a name in the shell that will deploy it to the storm cluster:
 
 ``` bash
 java -cp $(lein classpath) WordCountTopology "word-count-java"
