@@ -43,9 +43,9 @@ modify project.clj
                              [org.clojure/clojure "1.5.1"]]}})
 ```
 
-create src/clj/word_count.clj :
+create src/clj/wordcount.clj :
 
-{% include_code lang:clojure storm-starter-minimum/clj/word_count.clj %}
+{% include_code lang:clojure storm-starter-minimum/clj/wordcount.clj %}
 
 compile and run it locally in the shell:
 
@@ -53,21 +53,23 @@ compile and run it locally in the shell:
 lein deps
 lein compile
 
-lein run -m word-count
+lein run -m wordcount
 ```
 
 IT WORKS NOW!
 
-create ~/.storm/storm.yaml
+create ~/.storm/storm.yaml pointing out where the nimbus is, if you have not yet:
 
 ``` yaml
 nimbus.host: "127.0.0.1"
 ```
 
-run it with a name in the shell that will deploy it to the storm cluster:
+package a uberjar, and deploy it to the storm cluster:
 
 ``` bash
-lein run -m word-count "word-count-clj"
+lein uberjar
+
+java -cp target/storm-starter-minimum-0.1.0-SNAPSHOT-standalone.jar:$(lein classpath) wordcount "wordcount-clj"
 ```
 
 browser http://127.0.0.1:8080
@@ -119,10 +121,12 @@ java -cp $(lein classpath) WordCountTopology
 IT WORKS NOW!
 
 
-run it with a name in the shell that will deploy it to the storm cluster:
+package a uberjar, and deploy it to the storm cluster:
 
 ``` bash
-java -cp $(lein classpath) WordCountTopology "word-count-java"
+lein uberjar
+
+java -cp target/storm-starter-minimum-0.1.0-SNAPSHOT-standalone.jar:$(lein classpath) WordCountTopology "wordcount-java"
 ```
 
 browser http://127.0.0.1:8080
@@ -134,13 +138,13 @@ IT IS DEPLOYED AND RUNNING ON THE CLUSTER NOW!
 Thanks to 
 
 ``` clojure
-(System/setProperty "storm.jar" (.. (Class/forName "backtype.storm.StormSubmitter") getProtectionDomain getCodeSource getLocation getPath))
+(System/setProperty "storm.jar" (.. (Class/forName "wordcount") getProtectionDomain getCodeSource getLocation getPath))
 ```
 
 and
 
 ``` java
-System.setProperty("storm.jar", Class.forName("backtype.storm.StormSubmitter").getProtectionDomain().getCodeSource().getLocation().getPath());
+System.setProperty("storm.jar", Class.forName("WordCountTopology").getProtectionDomain().getCodeSource().getLocation().getPath());
 ```
 
 we can submit the topology without using storm client and will not get it complain like follows:
