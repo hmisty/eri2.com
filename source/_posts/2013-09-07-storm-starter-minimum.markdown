@@ -168,3 +168,11 @@ Setting up a storm cluster is fairly easy. Here is [a clean tutorial in Chinese]
 
 Enjoy your happy journey with storm and big data stream!
 
+---
+
+More reference readings:
+
+  * [Storm tutorial](https://github.com/nathanmarz/storm/wiki/Tutorial)
+  * [Storm concepts](https://github.com/nathanmarz/storm/wiki/Concepts)
+  * [Setting up a storm cluster](https://github.com/nathanmarz/storm/wiki/Setting-up-a-Storm-cluster)
+  * [Running topologies on a production cluster](https://github.com/nathanmarz/storm/wiki/Running-topologies-on-a-production-cluster)
