@@ -3,7 +3,7 @@ layout: post
 title: "Starting With Octopress"
 date: 2013-08-07 22:57
 comments: true
-categories: misc
+categories: starter
 #published: false
 ---
 
@@ -123,3 +123,4 @@ rake deploy
 * [Markdown cheatsheet]({{root_url}}/page/markdown-cheatsheet.html) (this site)
 * [Adding Math Equation support](http://www.idryman.org/blog/2012/03/10/writing-math-equations-on-octopress/)
 * [Adding categories list to side bar](http://paz.am/blog/blog/2012/06/25/octopress-category-list-plugin/)
+* [octopress graphviz](https://github.com/kui/octopress-graphviz)

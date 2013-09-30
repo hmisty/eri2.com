@@ -8,6 +8,14 @@ Hi, welcome to Evan's knowledge sharing site! Here shares Research Topics I'm in
 
 Think more, write less.
 
+## Starter
+
+Here are the _Starter Series_, for starting or re-starting, simply and easily.
+
+* [VIM Starter]({{root_url}}/blog/2013/09/30/vim-starter)
+* [Storm Starter]({{root_url}}/blog/2013/09/07/storm-starter-minimum)
+* [Octopress Starter]({{root_url}}/blog/2013/08/07/starting-with-octopress)
+
 ## Research Topic
 
 In the Big Data category, topics in fields of Data Analytics, Data Warehouse, Machine Learning, etc will be covered.
