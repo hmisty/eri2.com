@@ -16,7 +16,8 @@ Copyright © 2006-2013 Evan (Qingyan) Liu
 
 ## Powered By
 
-Check out [Octopress.org](http://octopress.org/docs) for guides and documentation.
+[Octopress.org](http://octopress.org/docs)
+[Github Pages](http://github.com)
 
 ## Octopress License
 (The MIT License)
